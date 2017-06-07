@@ -1,0 +1,20 @@
+{
+    "debugMode" : 1,
+    "noCache": false,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"framework/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/GameEngine.js",
+        "src/myApp.js",
+        "src/GameScene.js",
+        "src/components/Ball.js",
+        "src/components/Pipe.js"
+    ]
+}
